@@ -1,0 +1,21 @@
+<h1>Recently Searched 15 Keywords from Google Images</h1>
+ 
+<form class="col-md-8">  
+     <div class="bs-example">
+    <table class="table">
+        <thead>
+            <tr> 
+                <th>Keywords</th>
+                <th>Search Engine</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<tr class="active" ng-repeat="g in beforeSearch" ng-click="getImages(g)">
+                <td>{{g.keyword}}</td>
+                <td>Google Images</td> 
+            </tr>
+            
+        </tbody>
+    </table> 
+  </div>  
+</form>

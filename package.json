@@ -1,0 +1,21 @@
+{
+  "name": "image_scraper",
+  "version": "1.0.0",
+  "description": "google images scraper",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shiva jangra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "fs": "0.0.1-security",
+    "image-downloader": "^3.3.0",
+    "images-scraper": "^2.0.11",
+    "jimp": "^0.2.28",
+    "mongodb": "^2.2.31"
+  }
+}
